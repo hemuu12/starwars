@@ -8,7 +8,7 @@ import { Notifications } from '@mantine/notifications';
 export default function App() {
 	const router = createBrowserRouter(routes);
 	return (
-		<MantineProvider theme={theme} defaultColorScheme="dark">
+		<MantineProvider theme={theme} defaultColorScheme="light">
 			<Notifications />
 			<RouterProvider router={router} />
 		</MantineProvider>

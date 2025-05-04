@@ -12,7 +12,7 @@ const LandingPage = () => {
         <Stack justify='space-around' align="center">
           <Title ta={'center'} order={1} >Welcome to the Star Wars App</Title>
           <Text size="lg" ta={'center'} maw={500}>
-            Explore your favorite Star Wars characters, starships, films, and much more. Get started by logging in!
+            Get started by logging in!
           </Text>
           {!isAuthenticated ? (
             <Button size="md" onClick={() => navigate("/login")}>
